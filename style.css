@@ -11,7 +11,7 @@
     text-align: center;
     font-weight: 100;
     padding-bottom: 250px;
-   
+
 }
 
 .icons {
@@ -126,17 +126,18 @@
     padding-bottom: 20px;
 
 }
-.lastsection-nav
-{
+
+.lastsection-nav {
     padding-right: 110px;
     list-style: none;
     display: flex;
     gap: 10px;
     padding-top: 10px;
     padding-bottom: 40px;
-   
+
 }
-.lastsection-icons{
+
+.lastsection-icons {
     list-style: none;
     gap: 15px;
     justify-content: flex-end;
@@ -151,21 +152,12 @@
     flex-direction: row;
 }
 
-.articles {
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 1;
-}
 
 .buttons {
     list-style: none;
     display: flex;
 }
 
-.article-container {
-    display: flex;
-
-}
 
 #Intro {
     margin-top: 7%;
@@ -192,6 +184,22 @@
     color: white;
     margin-top: -16px;
     padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    width: 30%;
+    /* Adjust the width as needed */
+    float: left;
+    margin: 0 1%;
+    /* Adjust the margin as needed */
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .card-title {
@@ -357,15 +365,17 @@ form {
     border: #5ba601;
     height: 6vh;
 }
-footer{
+
+footer {
     margin-top: -16px;
     padding-top: 80px;
     display: flex;
     background-color: #07153a;
     color: white;
-    
+
 }
-#last-section-si li{
+
+#last-section-si li {
     margin-top: -10px;
-    border-radius:50%;
+    border-radius: 50%;
 }
