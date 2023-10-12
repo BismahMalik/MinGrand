@@ -1,0 +1,371 @@
+* {
+    font-family: Rubik;
+}
+
+.Home {
+    background-image: url(office.jpg);
+    background-blend-mode: multiply;
+    background-color: #4b6075;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 250px;
+   
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 12px;
+    padding-bottom: 0%;
+
+
+}
+
+.icon-text-container {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.icon-text-container img {
+    width: 21px;
+    height: 21px;
+    filter: invert(1);
+}
+
+
+.social-media {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialmedia-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+
+.socialmedia-icons img {
+    width: 15px;
+    height: 15px;
+    justify-content: space-between;
+    filter: invert(1);
+}
+
+.Cards {
+    display: flex;
+    gap: 10px;
+
+}
+
+.card {
+    width: 20px;
+}
+
+.card-body {
+    margin: 10%;
+}
+
+.nav-bar {
+
+    padding-bottom: 1%;
+    display: flex;
+
+}
+
+.nav-elements {
+    background-color: #07153a;
+    padding-right: 110px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#submit {
+    background-color: #5ba601;
+    border: #5ba601;
+    width: 300px;
+    height: 11vh;
+    justify-content: flex-end;
+    color: white;
+}
+
+.search {
+
+    list-style: none;
+    float: right;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+
+
+.logo {
+    list-style: none;
+    margin-top: 1.5%;
+    display: flex;
+    gap: 40px;
+}
+
+.last-section {
+    background-color: #0d2b5d;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.lastsection-nav
+{
+    padding-right: 110px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   
+}
+.lastsection-icons{
+    list-style: none;
+    gap: 15px;
+    justify-content: flex-end;
+    width: 10%;
+    height: 1vh;
+}
+
+
+
+.newsfeed {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.buttons {
+    list-style: none;
+    display: flex;
+}
+
+.article-container {
+    display: flex;
+
+}
+
+#Intro {
+    margin-top: 7%;
+    font-weight: bolder;
+}
+
+#Intro h1 {
+    font-weight: bolder;
+}
+
+
+
+.card img {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 160px;
+    height: 160px;
+    margin-top: -110px;
+    align-self: center;
+}
+
+.ending-section {
+    background-color: #07153a;
+    color: white;
+    margin-top: -16px;
+    padding-top: 80px;
+}
+
+.card-title {
+    color: #07153a;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.Cards {
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 0%;
+}
+
+.card {
+    width: 100px;
+    height: 40vh;
+    box-shadow: rgb(219, 214, 214);
+    border-color: aliceblue;
+    background-color: rgba(237, 229, 229, 0.216);
+}
+
+.Houses h1 {
+    color: #07153a;
+    font-weight: bolder;
+
+}
+
+.Houses p {
+    color: #5ba601;
+    font-weight: bolder;
+
+}
+
+.Houses {
+    text-align: center;
+    margin-top: 5%;
+    justify-content: center;
+    padding-bottom: 10%;
+    font-weight: bolder;
+}
+
+.Video {
+    background-image: url(office.jpg);
+    background-color: #0d1b38;
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-weight: bolder;
+
+}
+
+.Video h1 {
+    font-weight: bolder;
+}
+
+.Video p {
+    margin: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-weight: bolder;
+}
+
+.play-button {
+    width: 10%;
+}
+
+.play-button:hover {
+    color: #0d1b38;
+    font-family: "Rubik";
+}
+
+.Categories h1 {
+    color: #07153a;
+    font-weight: bolder;
+
+}
+
+.Categories p {
+    color: #5ba601;
+    font-weight: bolder;
+
+}
+
+.Categories {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 15%;
+    font-weight: bolder;
+}
+
+.Houses-img {
+
+    height: 40vh;
+    width: 100%;
+}
+
+.Categories-img {
+
+    height: 40vh;
+    width: 100%;
+}
+
+.Categorie-img {
+
+    height: 40vh;
+    width: 100%;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.input-select-pair {
+    display: flex;
+    align-items: center;
+}
+
+.input-select-pair input,
+.input-select-pair select {
+    flex: 1;
+}
+
+.select {
+    width: 10%;
+    height: 6vh;
+    margin-left: -30px;
+    border: white;
+    border-radius: 5px;
+}
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.input {
+    gap: 10px;
+    border: white;
+    border-radius: 5px;
+    height: 6vh;
+    text-align: left;
+}
+
+.input-select-pair {
+    gap: 10px;
+}
+
+#search {
+    background-color: #5ba601;
+    border-radius: 5px;
+    width: 23%;
+    color: white;
+    border: #5ba601;
+    height: 6vh;
+}
+footer{
+    margin-top: -16px;
+    padding-top: 80px;
+    display: flex;
+    background-color: #07153a;
+    color: white;
+    
+}
+#last-section-si li{
+    margin-top: -10px;
+    border-radius:50%;
+}
