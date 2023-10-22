@@ -72,11 +72,17 @@
     height: 15px;
     justify-content: center;
     gap: 10px;
+
+
+}
+
+#media img {
+
+
     background-color: white;
     background-size: cover;
     border-radius: 50%;
     border: black;
-
 }
 
 .row {
@@ -538,4 +544,58 @@ footer {
 #sponsors {
     margin-top: -90px;
     padding: 30px;
+}
+
+#our-client {
+    justify-content: center;
+}
+
+#our-client-card {
+    margin-top: 70px;
+    background-color: transparent;
+    color: white;
+    border: #beb8b873 solid 1px;
+}
+
+#our-client-card #card-img-top {
+    border: #5ba601 solid 5px;
+}
+
+#our-client-card ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#our-client-card ul li img {
+    width: 5%;
+    justify-content: center;
+
+
+}
+
+#our-client-card-title {
+    color: white !important;
+}
+
+#OurClient h5 {
+    color: #5ba601;
+}
+
+.rent-sell {
+    border: transparent;
+    padding: 10px 40px;
+
+}
+
+.rent-sell:hover {
+    background-color: #5ba601;
+    color: white;
+}
+
+#Daily-Cards {
+    padding-top: 20px;
+    justify-content: center;
 }
