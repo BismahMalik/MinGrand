@@ -27,8 +27,8 @@
                     <img src="mail.png">
                     <p>info.contact@gmail.com</p>
                 </div>
-                <div class="social-media">
-                    <ul class=" socialmedia-icons">
+                <div id="social-media" class="social-media">
+                    <ul id="socialmedia-icons" class="socialmedia-icons">
                         <li>Register</li>
                         <li>Login |</li>
                         <li><img src="facebook.png"></li>
@@ -41,28 +41,28 @@
         </div>
         <div class="container">
             <div class="nav-bar">
-            
-                    <ul class="nav-elements">
 
-                        <li> <img src="logo-1.png"></li>
-                        <ul class="logo">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Properties+</a></li>
-                            <li><a>Pages+</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                        <ul class="search">
-                            <li><i class="fas fa-search"></i></li>
+                <ul class="nav-elements">
 
-                        </ul>
-                        
+                    <li> <img src="logo-1.png"></li>
+                    <ul class="logo">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Properties+</a></li>
+                        <li><a>Pages+</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
-                    <button type="submit" id="submit">
-                        SUBMIT PROPERTY
-                    </button>
-                
+                    <ul class="search">
+                        <li><i class="fas fa-search"></i></li>
+
+                    </ul>
+
+                </ul>
+                <button type="submit" id="submit">
+                    SUBMIT PROPERTY
+                </button>
+
             </div>
         </div>
         <div id="Intro" class="container">
@@ -72,34 +72,34 @@
             <h1>The Best Way to Find Your <br> Perfect Home</h1>
             </p>
             <div class="container">
-            <form>
-                <div class="input-select-pair">
-                    <input type="text" placeholder="Location" class="input">
-                    <select id="location" name="location" class="select">
-                    </select>
+                <form>
+                    <div class="input-select-pair">
+                        <input type="text" placeholder="Location" class="input">
+                        <select id="location" name="location" class="select">
+                        </select>
 
-                    <input type="text" placeholder="Property" class="input">
-                    <select id="Property" name="Property" class="select">
-                    </select>
+                        <input type="text" placeholder="Property" class="input">
+                        <select id="Property" name="Property" class="select">
+                        </select>
 
-                    <input type="text" placeholder="Price" class="input">
-                    <select id="Price" name="Price" class="select">
-                    </select>
+                        <input type="text" placeholder="Price" class="input">
+                        <select id="Price" name="Price" class="select">
+                        </select>
 
-                    <button type="submit" id="search">
-                        <i class="fas fa-search"></i>
-                        Search
-                    </button>
-                </div>
-            </form>
-        </div>
+                        <button type="submit" id="search">
+                            <i class="fas fa-search"></i>
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <section>
         <div class="container">
             <div class="Cards">
                 <div class="card" style="width: 33.3%;">
-                    <img src="settings.gif" class="card-img-top" alt="...">
+                    <img src="settings.gif" id="card-img-top" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Sell Property</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quis molestiae
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 33.3%;">
-                    <img src="daily-apart.gif" class="card-img-top" alt="...">
+                    <img src="daily-apart.gif" id="card-img-top" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Daily Apartment</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quis molestiae
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 33.3%;">
-                    <img src="Bulb.gif" class="card-img-top" alt="...">
+                    <img src="Bulb.gif" id="card-img-top" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Family House</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quis molestiae
@@ -139,9 +139,12 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button></div>
-                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button></div>
-                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button></div>
+                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button>
+                </div>
+                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button>
+                </div>
+                <div class="col-4"><img src="office.jpg" class="Houses-img"><button class="for-sell">For Sell</button>
+                </div>
             </div>
         </div>
     </section>
@@ -162,17 +165,53 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-4"><img src="office.jpg" class="Categories-img"></div>
-                <div class="col-4"><img src="office.jpg" class="Categories-img"></div>
-                <div class="col-4"> <img src="office.jpg" class="Categories-img"></div>
+                <div class="col-4">
+                    <img src="office.jpg" class="Categories-img">
+                    <div class="image-text">
+                        <h3>
+                            Orchard
+                        </h3>
+                        <button>3 Properties</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="office.jpg" class="Categories-img">
+                    <div class="image-text">
+                        <h3>
+                            Orchard
+                        </h3>
+                        <button>3 Properties</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="office.jpg" class="Categories-img">
+
+                </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
 
-                <div class="col-8"><img src="office.jpg" class="Categorie-img"></div>
+                <div class="col-8">
+                    <img src="office.jpg" class="Categorie-img">
+                    <div class="image-text">
+                        <h3>
+                            Orchard
+                        </h3>
+                        <button>3 Properties</button>
+                    </div>
+                </div>
 
-                <div class="col-4"><img src="office.jpg" class="Categorie-img"></div>
+                <div class="col-4">
+                    <img src="office.jpg" class="Categorie-img">
+                    <div class="image-text">
+                        <h3>
+                            Orchard
+                        </h3>
+                        <button>3 Properties</button>
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -181,18 +220,117 @@
     </section>
     <section class="submit-property">
         <div class="container">
-            <a class="buy-sell"><h4>Buy or sell</h4></a>
+            <a class="buy-sell">
+                <h4>Buy or sell</h4>
+            </a>
             <h1>Sumbit Property</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate doloremque quibusdam similique
                 officia, quia perferendis! Facilis numquam dolore unde labore facere sapiente perspiciatis porro non,
                 maiores similique tempore accusamus dignissimos.</p>
-                <div class="sub-button">
+            <div class="sub-button">
                 <button>Submit</button>
                 <button id="buy">Buy</button>
             </div>
-            
+
         </div>
     </section>
+    <section class="Houses">
+        <div class="container">
+            <p>Meet Our Agent</p>
+            <h1>Our Best Agent</h1>
+        </div>
+        <div class="container">
+            <div id="Agent-Cards" class="Cards">
+                <div id="Agent-cardId" class="card" style="width: 33.3%;">
+                    <div id="Agent-cardBody" class="card-body">
+                        <img src="Bulb.gif" class="card-img-top">
+                        <h5 class="card-title">Sandra Mrikon</h5>
+                        <p class="card-text">Estate Agent
+                        </p>
+                        <div class="social-media">
+                            <ul class="socialmedia-icons">
+                                <li><img src="facebook.png"></li>
+                                <li><img src="instagram.png"></li>
+                                <li><img src="twitter.png"></li>
+                                <li><img src="skype.png"></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="Agent-cardId" class="card" style="width: 33.3%;">
+                    <div id="Agent-cardBody" class="card-body">
+                        <img src="Bulb.gif" class="card-img-top">
+                        <h5 class="card-title">Sarif Jaya</h5>
+                        <p class="card-text">Area Agent
+                        </p>
+                        <div class="social-media">
+                            <ul class="socialmedia-icons">
+                                <li><img src="facebook.png"></li>
+                                <li><img src="instagram.png"></li>
+                                <li><img src="twitter.png"></li>
+                                <li><img src="skype.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="Agent-cardId" class="card" style="width: 33.3%;">
+                    <div id="Agent-cardBody" class="card-body">
+                        <img src="Bulb.gif" class="card-img-top">
+                        <h5 class="card-title">Jordan Smith</h5>
+                        <p class="card-text">Expert Agent
+                        </p>
+                        <div class="social-media">
+                            <ul class="socialmedia-icons">
+                                <li><img src="facebook.png"></li>
+                                <li><img src="instagram.png"></li>
+                                <li><img src="twitter.png"></li>
+                                <li><img src="skype.png"></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="find-place" class="submit-property">
+        <div class="container">
+            <a class="buy-sell">
+                <h4>Buy or sell</h4>
+            </a>
+            <h1>Find Best Place For Leaving</h1>
+            <div id="p-button" class="sub-button">
+                <p id="find-placep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate doloremque
+                    quibusdam similique
+                    officia, quia perferendis! Facilis numquam dolore unde labore facere sapiente perspiciatis porro
+                    non,
+                    maiores similique tempore accusamus dignissimos.</p>
+
+                <button>Submit</button>
+            </div>
+
+        </div>
+    </section>
+    <div id="sponsors" class="container">
+        <ul class="sponsors">
+            <li>
+                <img src="KMN.gif">
+            </li>
+            <li>
+                <img src="BirdTech.gif">
+            </li>
+            <li>
+                <img src="ChainForce.gif">
+            </li>
+            <li>
+                <img src="Canadian.gif">
+            </li>
+            <li>
+                <img src="NextGen.gif">
+            </li>
+        </ul>
+    </div>
     <section class="Houses">
         <div class="container">
             <p>Blog & News</p>
