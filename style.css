@@ -1,6 +1,6 @@
 * {
     font-family: Rubik;
-    margin-right: 0%;
+    
 }
 
 .Home {
@@ -381,8 +381,8 @@ padding-bottom: 15px;
 #last-submit{
     background-color: #07153a;
     color: white;
-    border-radius: 10px;
-    border:1px solid white;
+    border-radius: 20px;
+    border:1px solid rgb(204, 201, 201);
     padding: 5px;
 
 
@@ -676,12 +676,22 @@ padding-bottom: 15px;
 #Daily-cardBody {
    margin-top: 10px;
     text-align: left;
-    background-color: #e4e2e2;
+    background-color: #f7f7f7;
 
 }
+#Daily-cardId {
+    background-color: #f7f7f7;
+
+}
+#Daily-cardId:hover {
+     background-color: #f7f7f7;
+     color: #07153a;
+ 
+ }
 #Daily-cardBody h5, #Daily-cardBody p{
    
     text-align: left;
+    color: #07153a;
 
 }
 
@@ -720,7 +730,40 @@ border-radius: 50%;
 .Properties-ul{
     list-style: none;
     color: gray;
-    background-color: #c5c0c0;
+    background-color: #ececec;
     display: flex;
     gap: 10px;
+}
+#last-submit:hover{
+    background-color: #5ba601;
+
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .Home {
+        padding-bottom: 100px;
+    }
+    
+    .icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .icon-text-container img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens up to 480px wide */
+    .Home {
+        padding-bottom: 50px;
+    }
+    
+    .icon-text-container img {
+        width: 15px;
+        height: 15px;
+    }
 }
