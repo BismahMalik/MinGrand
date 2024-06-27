@@ -1,6 +1,6 @@
 * {
     font-family: Rubik;
-    
+
 }
 
 .Home {
@@ -83,13 +83,19 @@
     background-color: white;
     background-size: cover;
     border-radius: 50%;
-    border: 4px solid rgba(0, 0, 0, 0);
-    width: 25px !important;
-    height: 25px !important;
+    
+    object-fit: contain;
 }
 
 #media img:hover {
     background-color: #abea5eaf;
+    color: white;
+    
+}
+#Agent-cardBody:hover {
+   
+    color: white !important;
+    
 }
 
 .row {
@@ -240,6 +246,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #07153a;
 
 }
 
@@ -248,13 +255,10 @@ footer {
 }
 
 .nav-elements {
-    background-color: #07153a;
-    padding-right: 110px;
     list-style: none;
     display: flex;
     gap: 10px;
     padding: 5px;
-    padding-right: 143px;
     margin: 0;
 
 }
@@ -331,11 +335,31 @@ footer {
 .buttons {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 5px;
+    position: relative;
+    left: -9%;
+
+
+}
+#user-calendar{
+    
+    font-size: 10px;
+    color: black;
     
     
 }
+#user-calendar-img{
+    filter: invert(0) !important;
+    width: 10%;
+    height: auto;
+    margin-top: 5%;
+    
+}
+.user-calendar-div{
+    display: flex;
+ 
 
+}
 
 #Intro {
     margin-top: 7%;
@@ -375,19 +399,22 @@ footer {
     padding-top: 8px;
     text-align: center;
 }
-#your-mail{
-padding-bottom: 15px;
+
+#your-mail {
+    padding-bottom: 15px;
 }
-#last-submit{
+
+#last-submit {
     background-color: #07153a;
     color: white;
     border-radius: 20px;
-    border:1px solid rgb(204, 201, 201);
-    padding: 5px;
+    border: 1px solid rgb(204, 201, 201);
+    padding: 5px 20px;
 
 
-  
+
 }
+
 #mail {
     background-color: #07153a;
     color: white !important;
@@ -395,8 +422,10 @@ padding-bottom: 15px;
     height: auto;
     border-radius: 0%;
 }
+
 #mail::placeholder {
-    color: white /* Change this color to your desired color */
+    color: white
+        /* Change this color to your desired color */
 }
 
 .news p {
@@ -430,6 +459,18 @@ padding-bottom: 15px;
     font-weight: bolder;
 
 }
+#owner-houses{
+    position: absolute;
+    left: 7%;
+
+}
+#owner-houses-img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    filter: invert(0);
+   
+}
 
 .Houses {
     text-align: center;
@@ -454,9 +495,11 @@ padding-bottom: 15px;
 
 .Video h1 {
     font-weight: bolder;
+    color: white;
 }
 
 .Video p {
+    color: white;
     margin: 5%;
     margin-left: 8%;
     margin-right: 8%;
@@ -502,11 +545,7 @@ padding-bottom: 15px;
     object-fit: cover;
 }
 
-#for-sell {
-    margin-top: -20px !important;
-    padding: 5px 50px;
-    border-radius: 5px !important;
-}
+
 
 .Categories-img {
 
@@ -575,6 +614,26 @@ padding-bottom: 15px;
 .image-text {
     margin: -210px;
     color: white;
+
+}
+
+#for-sell {
+    position: relative;
+    top: -210px; 
+    right: 0%;
+    padding: 5px 50px;
+    border-radius: 5px !important;
+}
+
+#Orchard {
+    position: absolute;
+    left: 70%;
+
+}
+
+#image-col-8 {
+    position: absolute;
+    left: 35%;
 
 }
 
@@ -670,26 +729,31 @@ padding-bottom: 15px;
 #Daily-Cards {
     padding-top: 20px;
     justify-content: center;
-   
+
 
 }
+
 #Daily-cardBody {
-   margin-top: 10px;
+    margin-top: 10px;
     text-align: left;
     background-color: #f7f7f7;
 
 }
+
 #Daily-cardId {
     background-color: #f7f7f7;
 
 }
+
 #Daily-cardId:hover {
-     background-color: #f7f7f7;
-     color: #07153a;
- 
- }
-#Daily-cardBody h5, #Daily-cardBody p{
-   
+    background-color: #f7f7f7;
+    color: #07153a;
+
+}
+
+#Daily-cardBody h5,
+#Daily-cardBody p {
+
     text-align: left;
     color: #07153a;
 
@@ -718,24 +782,47 @@ padding-bottom: 15px;
     display: flex;
     gap: 40px;
 }
-#Orchard div{
+
+#Orchard div {
     /* display: flex; */
 }
-#Orchard img{
-object-fit: cover;
-width: 5%;
-height: 5%;
-border-radius: 50%;
+
+#Orchard img {
+    object-fit: cover;
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
 }
-.Properties-ul{
+
+.Properties-ul {
     list-style: none;
     color: gray;
     background-color: #ececec;
     display: flex;
     gap: 10px;
 }
-#last-submit:hover{
+
+#last-submit:hover {
     background-color: #5ba601;
 
 }
-
+.i-container i {
+    background-color: #5ba601;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    color: white;
+    
+}
+.i-container{
+    display: flex;
+    gap: 33%;
+    justify-content: center;
+    position: relative;
+    bottom: 10%;
+    
+}
+i-container i:hover{
+    background-color: #bfd99e;
+}
+  
+  
